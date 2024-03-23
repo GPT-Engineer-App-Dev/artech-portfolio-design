@@ -3,6 +3,7 @@ import { Box, Heading, Text, Flex, Image, Link, List, ListItem, ListIcon, Progre
 import { FaGithub, FaLinkedin, FaEnvelope, FaBriefcase, FaCode, FaPaperPlane } from "react-icons/fa";
 import ComingSoon from "../components/ComingSoon";
 import FamilySection from "../components/FamilySection";
+import ClientsSection from "../components/ClientsSection";
 
 const Index = () => {
   return (
@@ -270,6 +271,7 @@ const Index = () => {
 
       {/* Footer */}
       <FamilySection />
+      <ClientsSection />
       <Box as="footer" role="contentinfo" mx="auto" maxW="7xl" py="12" px={{ base: "4", md: "8" }} bg={useColorModeValue("gray.100", "gray.900")}>
         <Flex direction={{ base: "column", md: "row" }} justify="space-between" align="center">
           <Flex direction={{ base: "column", md: "row" }} spacing={{ base: "4", md: "12" }} justify="center" mb={{ base: "6", md: 0 }}>
