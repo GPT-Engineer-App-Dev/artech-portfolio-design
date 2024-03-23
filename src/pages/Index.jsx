@@ -116,6 +116,82 @@ const Index = () => {
                 </Flex>
               </Box>
             </Box>
+            <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" m={4}>
+              <Image src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjb2RlfGVufDB8fHx8MTcxMTIxNDQ1MHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Project 3" />
+              <Box p="6">
+                <Box d="flex" alignItems="baseline">
+                  <Text fontSize="sm" fontWeight="semibold">
+                    Project 3
+                  </Text>
+                </Box>
+                <Text mt={2} fontSize="sm">
+                  A real-time chat application built with React, Node.js, and Socket.io.
+                </Text>
+                <Flex mt={3}>
+                  <Link href="#" mr={4}>
+                    <FaGithub />
+                  </Link>
+                  <Link href="#">Live Demo</Link>
+                </Flex>
+              </Box>
+            </Box>
+            <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" m={4}>
+              <Image src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx3ZWF0aGVyJTIwYXBwfGVufDB8fHx8MTcxMTIxNDQ1M3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="Project 4" />
+              <Box p="6">
+                <Box d="flex" alignItems="baseline">
+                  <Text fontSize="sm" fontWeight="semibold">
+                    Project 4
+                  </Text>
+                </Box>
+                <Text mt={2} fontSize="sm">
+                  A weather forecast application using React and OpenWeatherMap API.
+                </Text>
+                <Flex mt={3}>
+                  <Link href="#" mr={4}>
+                    <FaGithub />
+                  </Link>
+                  <Link href="#">Live Demo</Link>
+                </Flex>
+              </Box>
+            </Box>
+            <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" m={4}>
+              <Image src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxuZXdzJTIwd2Vic2l0ZXxlbnwwfHx8fDE3MTEyMTQ0NTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Project 5" />
+              <Box p="6">
+                <Box d="flex" alignItems="baseline">
+                  <Text fontSize="sm" fontWeight="semibold">
+                    Project 5
+                  </Text>
+                </Box>
+                <Text mt={2} fontSize="sm">
+                  A news aggregator website developed with React and NewsAPI.
+                </Text>
+                <Flex mt={3}>
+                  <Link href="#" mr={4}>
+                    <FaGithub />
+                  </Link>
+                  <Link href="#">Live Demo</Link>
+                </Flex>
+              </Box>
+            </Box>
+            <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" m={4}>
+              <Image src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx0b2RvJTIwYXBwfGVufDB8fHx8MTcxMTIxNDQ1OXww&ixlib=rb-4.0.3&q=80&w=1080" alt="Project 6" />
+              <Box p="6">
+                <Box d="flex" alignItems="baseline">
+                  <Text fontSize="sm" fontWeight="semibold">
+                    Project 6
+                  </Text>
+                </Box>
+                <Text mt={2} fontSize="sm">
+                  A task management application built with React and Firebase.
+                </Text>
+                <Flex mt={3}>
+                  <Link href="#" mr={4}>
+                    <FaGithub />
+                  </Link>
+                  <Link href="#">Live Demo</Link>
+                </Flex>
+              </Box>
+            </Box>
           </Flex>
         </Box>
 
