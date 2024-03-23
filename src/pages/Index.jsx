@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Heading, Text, Flex, Image, Link, List, ListItem, ListIcon, Progress, FormControl, FormLabel, Input, Textarea, Button, useColorModeValue } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaBriefcase, FaCode, FaPaperPlane } from "react-icons/fa";
+import ComingSoon from "../components/ComingSoon";
 
 const Index = () => {
   return (
@@ -204,6 +205,7 @@ const Index = () => {
           &copy; {new Date().getFullYear()} Artech. All rights reserved.
         </Text>
       </Box>
+      <ComingSoon />
     </Box>
   );
 };
