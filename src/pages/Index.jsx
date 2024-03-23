@@ -42,7 +42,15 @@ const Index = () => {
           <Flex align="center">
             <Image borderRadius="full" boxSize="150px" src="https://images.unsplash.com/photo-1507206130118-b5907f817163?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wZXIlMjBoZWFkc2hvdHxlbnwwfHx8fDE3MTEyMTQ0NDF8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Artech" mr={8} />
             <Box>
-              <Text fontSize="lg">I'm a passionate front-end developer with expertise in HTML, CSS, JavaScript, and React. I love solving complex user experience problems and creating beautiful, intuitive interfaces.</Text>
+              <Text fontSize="lg">
+                👋 Hey there! I'm an enthusiastic and dedicated front-end developer with a passion for crafting amazing digital experiences. 🚀 With expertise in HTML, CSS, JavaScript, and React, I thrive on tackling complex user experience challenges and transforming them into beautiful, intuitive interfaces. 💡
+                <br />
+                <br />
+                I believe that great design and seamless functionality go hand in hand, and I'm always excited to learn and grow in this ever-evolving field. 🌱 When I'm not coding, you can find me exploring the latest web design trends, collaborating with fellow developers, or seeking inspiration in the world around me. 🌍
+                <br />
+                <br />
+                Let's create something incredible together! 🙌
+              </Text>
             </Box>
           </Flex>
         </Box>
